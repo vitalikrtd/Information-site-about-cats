@@ -1,0 +1,62 @@
+@import 'fonts.css';
+
+.photo-short-info{
+    display: flex;
+    flex-direction: row;
+}
+.photo-short-info img{
+    margin-right: 8%;
+    border-radius: 100%;
+}
+main{
+    margin-left: 25%;
+    width: 50%;
+}
+
+.photo-gallery ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.info ul{
+    list-style-image: url('../resources/images/imgonline-com-ua-Resize-fiX3u9x5pVRO.jpg');
+    margin-bottom: 20px;
+}
+
+.info ul li{
+    margin-top: 5px;
+}
+
+.info img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.breed_image1-text{
+    color: #fff;
+    background: rgb(34,34,34);
+    font-size: 20px;
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+.breed_image1-text p{
+    margin: 40px;
+    line-height: 30px;
+}
+
+.photos-of-breed{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photos-of-breed img{
+    display: table;
+    height: 264px;
+    width: 380px;
+}
